@@ -1,0 +1,12 @@
+[package]
+name = "eszip_async_trait"
+version = "0.1.0"
+authors = ["Powerbase <team@powerbase.com>"]
+edition = "2021"
+license = "MIT"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+eszip.workspace = true

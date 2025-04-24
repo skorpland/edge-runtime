@@ -1,0 +1,17 @@
+{
+  "workspace": [
+    "./examples",
+    "./crates/base/test_cases"
+  ],
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 100,
+    "indentWidth": 4,
+    "singleQuote": true,
+    "proseWrap": "preserve"
+  },
+  "imports": {
+    "npm:@meowmeow/foobar": "npm:is-odd",
+    "openai": "npm:openai"
+  }
+}
